@@ -1,0 +1,6 @@
+.f4pga
+.vscode-ctags
+*.log
+.f4cache
+build
+build-*

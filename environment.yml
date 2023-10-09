@@ -1,0 +1,13 @@
+name: eos-s3
+channels:
+  - defaults
+  - litex-hub
+dependencies:
+  - litex-hub::vtr-optimized==8.0.0_5383_gc012f19d3=20220512_085338
+  - litex-hub::yosys==0.17_7_g990c9b8e1=20220512_085338_py37
+  - litex-hub::symbiflow-yosys-plugins==1.0.0_7_919_g2fa356d=20220512_085338
+  - libxml2>=2.9.10
+  - lxml
+  - pip
+  - pip:
+    - -r requirements.txt

@@ -1,0 +1,11 @@
+set_io clk      A3
+set_io led[0]   G7
+set_io led[1]   H7
+set_io led[2]   E8
+set_io led[3]   F4
+
+#set_io clk      63
+#set_io led[0]   34
+#set_io led[1]   39
+#set_io led[2]   38
+#set_io led[3]   25
