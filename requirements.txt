@@ -2,3 +2,5 @@ https://github.com/Dasharo/f4pga/archive/630df6f07a5961fc840ee42899732afd9807def
 https://github.com/QuickLogic-Corp/quicklogic-fasm/archive/aaf4c314a165b6185b0983019d8aae4d0d4db6cb.zip#quicklogic_fasm
 fasm
 simplejson
+https://github.com/Dasharo/litex/archive/7b05f7d25e22648f4064300a161465e53b858587.zip
+python-constraint

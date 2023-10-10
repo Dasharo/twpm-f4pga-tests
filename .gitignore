@@ -4,3 +4,4 @@
 .f4cache
 build
 build-*
+__pycache__
