@@ -1,6 +1,6 @@
-https://github.com/Dasharo/f4pga/archive/630df6f07a5961fc840ee42899732afd9807deff.zip#subdirectory=f4pga
+https://github.com/Dasharo/f4pga/archive/81581387ec53dfc43d5d57e5d80f9b6925bb48c0.zip#subdirectory=f4pga
 https://github.com/QuickLogic-Corp/quicklogic-fasm/archive/aaf4c314a165b6185b0983019d8aae4d0d4db6cb.zip#quicklogic_fasm
 fasm
 simplejson
-https://github.com/Dasharo/litex/archive/7b05f7d25e22648f4064300a161465e53b858587.zip
+https://github.com/Dasharo/litex/archive/c0071c1ba27e05c2afbce8f6739e787105c586f3.zip
 python-constraint
