@@ -43,7 +43,7 @@ class Platform(QuickLogicPlatform):
                 if self.platform.c16_freq > 0:
                     with open(x, "a") as file:
                         c16_period_ns = 1 / self.platform.c16_freq * 1000000000
-                        file.write(f"create_clock -period {c16_period_ns} eos_s3_eos_s3_0_clk\n")
+                        file.write(f"\ncreate_clock -period {c16_period_ns} eos_s3_eos_s3_0_clk\n")
 
                 return (x, y)
 
@@ -92,7 +92,6 @@ class Soc(SoCCore):
         led = platform.request("user_rgb_led")
         spi_pads = platform.request("spi")
         self.submodules.test_spi = TestSpi(spi_pads)
-        # platform.add_period_constraint(spi_pads.clk, 41.6) # 24 MHz
 
 
 def main():
