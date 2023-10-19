@@ -1,3 +1,6 @@
 [submodule "external/f4pga-arch-defs"]
 	path = external/f4pga-arch-defs
 	url = https://github.com/f4pga/f4pga-arch-defs
+[submodule "external/verilog-tpm-fifo-registers"]
+	path = external/verilog-tpm-fifo-registers
+	url = https://github.com/Dasharo/verilog-tpm-fifo-registers

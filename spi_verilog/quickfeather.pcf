@@ -1,0 +1,9 @@
+set_io clk A3
+set_io miso B5
+set_io mosi C3
+set_io cs_n A4
+set_io reset_n F2
+
+set_io led[0]   G7
+set_io led[1]   H7
+set_io led[2]   E8
