@@ -6,7 +6,7 @@ from litex.soc.integration.soc_core import *
 from litex.soc.integration.builder import *
 from litex.gen import *
 
-from test_spi import TestSpi
+from test_spi import Slave
 
 _io = [
     (
@@ -91,7 +91,7 @@ class Soc(SoCCore):
 
         led = platform.request("user_rgb_led")
         spi_pads = platform.request("spi")
-        self.submodules.test_spi = TestSpi(spi_pads)
+        self.submodules.test_spi = Slave(spi_pads)
 
 
 def main():
